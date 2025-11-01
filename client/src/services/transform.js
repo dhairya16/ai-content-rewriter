@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const baseUrl = 'http://localhost:3000/api/v1/transform'
+const baseUrl = '/api/v1/transform'
 
 export const transformContent = async (input, mode, url) => {
   try {
